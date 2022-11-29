@@ -64,11 +64,11 @@ public class Main {
         System.out.println(tiger);
         Predator bear = new Predator("Пушистик", 8, "леса", 64, "другие животные");
         System.out.println(bear);
-        Amphibian frog = new Amphibian("Липучка", 2, "земноводный");
-        System.out.println(frog);
         Amphibian frog1 = new Amphibian("Липучка", 2, "земноводный");
         System.out.println(frog1);
-        boolean equals = frog1.equals(frog);
+        Amphibian frog2 = new Amphibian("Липучка", 2, "земноводный");
+        System.out.println(frog2);
+        boolean equals = frog1.equals(frog2);
         System.out.println(equals);
 
         Amphibian snake = new Amphibian("Клиповый", 1, "земноводный");
